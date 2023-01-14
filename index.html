@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title> Bầu cua tôm cá </title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="icon" href="./images/2.jpg">
+    <script src="index.js"></script>
+    
+  </head>
+
+  <body>
+    <audio autoplay controls style="height: 1px; width: 1px;" >
+      <source src="./audio/2.mp3" type="audio/mpeg">
+    </audio>
+    <div class="background">
+      <img style="width: 100%; margin-right: 100px;" src="./images/dia.png" alt="">
+    </div>
+    <div id="container">
+      <div id="inner_container">
+        <img id="image_shower"/>
+        
+      </div>
+      <div id="inner_container">
+        <img id="image_shower1"/>
+        
+      </div>
+      <div id="inner_container">
+        <img id="image_shower2"/>
+        
+      </div>
+      <div id="button_container">
+        <button onclick="get_random_image()"> <i class="fas fa-random"></i> Xốc </button>
+        <button onclick="timer()">Mở</button>
+        
+        <button onclick="reset()">Đậy</button>
+
+      </div>
+    </div>
+     <img src="./images/bat.png" id=i1 style="position:fixed; width:700px; height:700px; bottom: 150px; left: 375px;">
+
+    <script>
+
+    </script>
+    <div id="countnumber">
+      <p id="bau" style="font-size: 30px; font-weight: bolder;">Bầu: 0</p>
+      <p id="cua" style="font-size: 30px; font-weight: bolder;">Cua: 0</p>
+      <p id="tom" style="font-size: 30px; font-weight: bolder;">Tôm: 0</p>
+      <p id="ca" style="font-size: 30px; font-weight: bolder;">Cá:  0</p>
+      <p id="ga" style="font-size: 30px; font-weight: bolder;">Gà:  0</p>
+      <p id="nai" style="font-size: 30px; font-weight: bolder;">Nai: 0</p>
+    </div>    
+   
+  </body>
+</html>
