@@ -1,5 +1,10 @@
 # bau-cua
 How to run:
+
+
+
+
+
 Step 1: You must download my project
 
 
